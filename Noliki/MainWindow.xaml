@@ -1,0 +1,24 @@
+﻿<Window x:Class="Noliki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Noliki"
+        mc:Ignorable="d"
+        Title="Крестики-нолики" Height="480" Width="675
+        ">
+    <Grid RenderTransformOrigin="0.5,0.465" HorizontalAlignment="Center" Width="675" Background="NavajoWhite">
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button3" Content="" HorizontalAlignment="Left" Margin="300,0,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button4" Content="" HorizontalAlignment="Left" Margin="0,150,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button5" Content="" HorizontalAlignment="Left" Margin="150,150,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button6" Content="" HorizontalAlignment="Left" Margin="300,150,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button7" Content="" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button8" Content="" HorizontalAlignment="Left" Margin="150,300,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="button9" Content="" HorizontalAlignment="Left" Margin="300,300,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="Button_Click" FontSize="48" Background="White"/>
+        <Button x:Name="buttonNewgame" Content="New Game" HorizontalAlignment="Left" Margin="481,0,0,0" VerticalAlignment="Center" Height="50" Width="150" Background="Red" Foreground="White" FontSize="25" Click="buttonNewgame_Click"/>
+        <TextBlock x:Name="Wins" HorizontalAlignment="Left" Margin="492,330,0,0" TextWrapping="Wrap" Text="Тут будет кол-во побед" VerticalAlignment="Top" Background="LightYellow"/>
+        <TextBlock x:Name="WhoWin" HorizontalAlignment="Left" Margin="481,58,0,0" TextWrapping="Wrap" Text="Тут будет победитель" VerticalAlignment="Top" FontSize="16" Width="173" Height="41"/>
+    </Grid>
+</Window>
